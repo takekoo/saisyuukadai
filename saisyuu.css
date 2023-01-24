@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+html{
+    background:url(https://weblio.hs.llnwd.net/e7/img/dict/sgkdj/images/104642.jpg);
+    color:rgb(255, 255, 255);
+}
+h1 {
+    position: relative;
+    background: #dfefff;
+    box-shadow: 0px 0px 0px 5px #dfefff;
+    border: dashed 2px white;
+    padding: 0.2em 0.5em;
+    color: #454545;
+  }
+  
+  h1:after {
+    position: absolute;
+    content: '';
+    left: -7px;
+    top: -7px;
+    border-width: 0 0 15px 15px;
+    border-style: solid;
+    border-color: #fff #fff #a8d4ff;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  }
+  
+  img{
+    width:500px;
+    height:px;
+
+      /*⬇︎⬇︎2秒ごとに画像が動くようになっている*/
+    animation: fluffy1 2s ease infinite; 
+   }
+   @keyframes fluffy1 {
+     0% {
+       transform: translateY(0); }
+     5% {
+       transform: translateY(0); }
+     10% {
+       transform: translateY(0); }
+     20% {
+       transform: translateY(-10px); }
+     25% {
+       transform: translateY(0); }
+     30% {
+       transform: translateY(-10px); }
+     50% {
+       transform: translateY(0); }
+     100% {
+       transform: translateY(0); } }
+       
